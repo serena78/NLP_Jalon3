@@ -6,7 +6,7 @@ from PIL import Image
 # Presentation de l'application
 
 st.title('ApplicationNLP : RevieWAnalyzer')
-myImage = Image.open("5-star-reviews-checked-PRE-1 (1).jpg.jpg");
+myImage = Image.open("5-star-reviews-checked-PRE-1 (1).jpg");
 myImage.show();
 
 monlabel = "Quel texte analyser ? "
