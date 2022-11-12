@@ -5,6 +5,8 @@ from predict import *
 # Presentation de l'application
 
 st.title('Application : RevieWAnalyzer')
+st.write(model_pred)
+st.write(vectorizer)
 
 monlabel = "Quel texte analyser ? "
 options = pd.DataFrame(['Avis dataset', 'Texte libre'])
