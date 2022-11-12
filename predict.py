@@ -1,6 +1,6 @@
 import pandas as pd
 from pickle import *
-import en_core_web_sm
+
 
 #Pré-traitement 
 
@@ -19,8 +19,8 @@ def tokenize_text(text):
 
 
 
-import en_core_web_sm
-nlp = en_core_web_sm.load(disable=['parser', 'tagger', 'ner'])
+#import en_core_web_sm
+#nlp = en_core_web_sm.load(disable=['parser', 'tagger', 'ner'])
 
 lemmatizer = WordNetLemmatizer()
 
