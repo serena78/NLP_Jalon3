@@ -6,4 +6,4 @@ altair
 pickle-mixin
 scikit-learn
 contractions
-en_core_web_sm
+
