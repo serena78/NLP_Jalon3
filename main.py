@@ -1,11 +1,13 @@
 import streamlit as st
 import pandas as pd
 from predict import *
+from PIL import Image
 
 # Presentation de l'application
 
 st.title('ApplicationNLP : RevieWAnalyzer')
-
+myImage = Image.open("https://gatherup.com/wp-content/uploads/2016/01/5-star-reviews-checked-PRE-1.jpg");
+myImage.show();
 
 monlabel = "Quel texte analyser ? "
 options = pd.DataFrame(['Avis dataset', 'Texte libre'])
