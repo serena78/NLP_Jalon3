@@ -140,7 +140,7 @@ def prediction(model,vectorizer,n_topic,new_reviews):
     topic=[]
     for i in range(n_topic):
       topic.append(topics[max_list[i]])  
-    return sentimentBlob,prediction,topic
+    return sentimentBlob,topic
 
   return sentimentBlob,"C'est un avis positif"
 
