@@ -1,9 +1,9 @@
 import pandas as pd
 from pickle import *
-file_name1 = open("/content/drive/MyDrive/IAA2/Sitou/vectorizer.pkl",'rb')
+file_name1 = open("vectorizer.pkl",'rb')
 vectorizer = load(file_name1)
 
-file_name2 = open("/content/drive/MyDrive/IAA2/Sitou/nmf_model.pkl","rb")
+file_name2 = open("nmf_model.pkl","rb")
 model_pred = load(file_name2)
 print(vectorizer)
 print(model_pred)
