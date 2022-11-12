@@ -145,5 +145,5 @@ def prediction(model, vectorizer, n_topic, new_reviews):
             topic.append(topics[max_list[i]])
         return sentimentBlob, prediction, topic
 
-    return sentimentBlob
+    return sentimentBlob,3,"C'est un avis positif"
 
