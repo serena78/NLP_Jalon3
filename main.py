@@ -15,7 +15,8 @@ with st.sidebar:
         st.radio(monlabel, options)
         text=st.text_input(label="Donnez nous votre avis")
 if st.button(label = "Détecter le sujet d'insatisfaction") == True :
-    prediction(model_pred, vectorizer, n_topics, text)
+    pred=prediction(model_pred, vectorizer, n_topics, text)
+    st.write(str(pred))
 
 
 
