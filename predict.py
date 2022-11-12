@@ -116,7 +116,7 @@ model_pred = load(file_name2)
 #print(vectorizer)
 #print(model_pred)
 
-
+from textblob import TextBlob
 
 def prediction(model, vectorizer, n_topic, new_reviews):
     new_reviews=preprocess_text(new_reviews)
