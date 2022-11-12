@@ -1,6 +1,6 @@
 import pandas as pd
 from pickle import *
-
+import en_core_web_sm
 
 #Pré-traitement 
 
