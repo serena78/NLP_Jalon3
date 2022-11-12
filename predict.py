@@ -5,8 +5,8 @@ vectorizer = load(file_name1)
 
 file_name2 = open("nmf_model (1).pkl","rb")
 model_pred = load(file_name2)
-print(vectorizer)
-print(model_pred)
+#print(vectorizer)
+#print(model_pred)
 
 
 
