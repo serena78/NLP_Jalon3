@@ -6,4 +6,4 @@ altair
 pickle-mixin
 scikit-learn
 contractions
-
+STOP_WORDS
