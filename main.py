@@ -6,8 +6,8 @@ from PIL import Image
 # Presentation de l'application
 
 st.title('ApplicationNLP : RevieWAnalyzer')
-myImage = Image.open("5-star-reviews-checked-PRE-1 (1).jpg")
-myImage.show()
+image = Image.open('5-star-reviews-checked-PRE-1 (1).jpg')
+st.image(image, caption='Restaurant Reviews')
 
 monlabel = "Quel texte analyser ? "
 options = pd.DataFrame(['Avis dataset', 'Texte libre'])
